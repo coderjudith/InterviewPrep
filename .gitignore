@@ -1,0 +1,202 @@
+# ============================================
+# INTERVIEW REVIEWER APP - .gitignore
+# ============================================
+
+# ========== NODE.JS / NPM ==========
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Dependency directories (for different setups)
+jspm_packages/
+web_modules/
+
+# Optional npm cache directory
+.npm
+.npmrc
+
+# Optional eslint cache
+.eslintcache
+
+# ========== DATABASE ==========
+# SQLite database files
+interview.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Database backups
+*.db.bak
+backup/*.db
+
+# ========== ENVIRONMENT ==========
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Environment secrets
+.secret
+.credentials
+
+# ========== OPERATING SYSTEM ==========
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========== EDITORS & IDEs ==========
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.session
+.netrwhist
+
+# ========== XAMPP / APACHE ==========
+# XAMPP specific
+xampp/
+/xampp
+
+# Apache logs
+logs/
+error_log
+access_log
+
+# Apache configuration backups
+*.conf.bak
+httpd.conf.bak
+
+# MySQL data (if using)
+mysql/data/
+mysqldata/
+
+# ========== PROJECT SPECIFIC ==========
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.out
+*.app
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+.cache/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# ========== FRONTEND ==========
+# Browser cache
+.sass-cache/
+*.css.map
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.yaml
+
+# ========== BACKEND ==========
+# Node.js process files
+*.pem
+
+# Debug
+debug/
+*.log
+
+# Optional REPL history
+.node_repl_history
+
+# ========== MISC ==========
+# Custom output folders
+output/
+uploads/
+downloads/
+
+# Documentation auto-generated
+docs/_build/
+docs/_static/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# ========== TESTING ==========
+# Test outputs
+test-results/
+test-reports/
+*.test.js
+*.spec.js
+
+# ========== SECURITY ==========
+# Never commit these!
+*.p12
+*.key
+*.crt
+*.csr
+*.pem
+*.cer
+
+# ========== USER-SPECIFIC ==========
+# User preferences
+.user.ini
+.user.env
+
+# Local overrides
+.local-*
+local.*
