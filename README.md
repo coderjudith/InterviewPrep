@@ -57,5 +57,6 @@ A comprehensive personal job interview practice application for managing questio
 
 
 2. **Start the Backend Server**
+   - InterviewPrep\backend>npm start
    - Server runs on http://localhost:3001
    - http://localhost/InterviewPrep/frontend/
