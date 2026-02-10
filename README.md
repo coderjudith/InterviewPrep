@@ -55,4 +55,7 @@ A comprehensive personal job interview practice application for managing questio
    cd InterviewPrep
    ```
 
-- Server runs on http://localhost:3001
+
+2. **Start the Backend Server**
+   - Server runs on http://localhost:3001
+   - http://localhost/InterviewPrep/frontend/
